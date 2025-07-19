@@ -29,5 +29,19 @@ SubmitBtn.onclick = function() {
 }
 }
 
+let fruit = "apple";
 
+switch(fruit) {
+    case "apple":
+        console.log("Your favorite fruit is Apple");
+        break;
+    case "orange":
+        console.log("Your favorite fruit is orange.");
+        break;
+    case "Pine-apple":
+        console.log("Your favorite fruit is pine apple.");
+        break;
+    default:
+        console.log("You don't like any fruit.");
+}
 
